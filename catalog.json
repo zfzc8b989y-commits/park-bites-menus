@@ -1,9 +1,9 @@
 {
-  "version": 2026102001,
+  "version": 2026102201,
 
   "resorts": [
-    {"id": "wdw", "name": "Walt Disney World Resort", "shortName": "Walt Disney World", "parks": [{"id": "mk", "name": "Magic Kingdom", "emoji": "🏰"}, {"id": "epcot", "name": "EPCOT", "emoji": "🌐"}, {"id": "hs", "name": "Hollywood Studios", "emoji": "🎬"}, {"id": "ak", "name": "Animal Kingdom", "emoji": "🌳"}]},
-    {"id": "dlr", "name": "Disneyland Resort", "shortName": "Disneyland", "parks": [{"id": "dl", "name": "Disneyland Park", "emoji": "🎠"}, {"id": "dca", "name": "California Adventure", "emoji": "🎡"}]}
+    {"id": "wdw", "name": "Walt Disney World Resort", "shortName": "Walt Disney World", "parks": [{"id": "mk", "name": "Magic Kingdom", "emoji": "🏰", "lat": 28.4185, "lon": -81.5812, "entranceLat": 28.4163, "entranceLon": -81.5812}, {"id": "epcot", "name": "EPCOT", "emoji": "🌐", "lat": 28.36972, "lon": -81.54951, "entranceLat": 28.37176, "entranceLon": -81.54942}, {"id": "hs", "name": "Hollywood Studios", "emoji": "🎬", "lat": 28.3572, "lon": -81.56, "entranceLat": 28.3577, "entranceLon": -81.5583}, {"id": "ak", "name": "Animal Kingdom", "emoji": "🌳", "lat": 28.3575, "lon": -81.5905, "entranceLat": 28.359, "entranceLon": -81.588}]},
+    {"id": "dlr", "name": "Disneyland Resort", "shortName": "Disneyland", "parks": [{"id": "dl", "name": "Disneyland Park", "emoji": "🎠", "lat": 33.8125, "lon": -117.92, "entranceLat": 33.8102, "entranceLon": -117.9189}, {"id": "dca", "name": "California Adventure", "emoji": "🎡", "lat": 33.8063, "lon": -117.92, "entranceLat": 33.8087, "entranceLon": -117.9189}]}
   ],
 
   "festivals": [
@@ -13,6 +13,53 @@
     {"id": "epcot-holidays-2026", "seriesId": "epcot-holidays", "name": "EPCOT Festival of the Holidays", "shortName": "Holidays", "year": 2026, "parkId": "epcot", "emoji": "🎄", "color": "#1E8449", "blurb": "Holiday kitchens serving seasonal treats and traditions.", "startDate": "2026-11-27", "endDate": "2026-12-30"},
     {"id": "dca-lny-2026", "seriesId": "dca-lny", "name": "Lunar New Year Celebration", "shortName": "Lunar New Year", "year": 2026, "parkId": "dca", "emoji": "🧧", "color": "#C0392B", "blurb": "Marketplaces celebrating the new year with Asian-inspired flavors.", "startDate": "2026-01-23", "endDate": "2026-02-22"},
     {"id": "dca-fw-2026", "seriesId": "dca-fw", "name": "California Adventure Food & Wine", "shortName": "DCA Food & Wine", "year": 2026, "parkId": "dca", "emoji": "🍇", "color": "#6C3483", "blurb": "California-grown flavors at marketplaces around the park.", "startDate": "2026-03-06", "endDate": "2026-04-27"}
+  ],
+
+  "locations": [
+    {"parkId": "mk", "name": "Aloha Isle", "lat": 28.4182, "lon": -81.5834},
+    {"parkId": "mk", "name": "Sunshine Tree Terrace", "lat": 28.418, "lon": -81.5832},
+    {"parkId": "mk", "name": "Gaston's Tavern", "lat": 28.4211, "lon": -81.5811},
+    {"parkId": "mk", "name": "Cheshire Café", "lat": 28.42, "lon": -81.5797},
+    {"parkId": "mk", "name": "The Lunching Pad", "lat": 28.4186, "lon": -81.579},
+    {"parkId": "mk", "name": "Casey's Corner", "lat": 28.41793, "lon": -81.5816},
+    {"parkId": "mk", "name": "Sleepy Hollow", "lat": 28.4191, "lon": -81.5822},
+    {"parkId": "mk", "name": "Be Our Guest Restaurant", "lat": 28.4214, "lon": -81.5817},
+    {"parkId": "mk", "name": "Frontierland Carts", "lat": 28.4193, "lon": -81.5838},
+    {"parkId": "epcot", "name": "Kringla Bakeri og Kafe", "lat": 28.37058, "lon": -81.54693},
+    {"parkId": "epcot", "name": "Les Halles Boulangerie-Pâtisserie", "lat": 28.36847, "lon": -81.55294},
+    {"parkId": "epcot", "name": "L'Artisan des Glaces", "lat": 28.36886, "lon": -81.55249},
+    {"parkId": "epcot", "name": "Les Vins des Chefs de France", "lat": 28.36929, "lon": -81.55236},
+    {"parkId": "epcot", "name": "Kabuki Café", "lat": 28.36756, "lon": -81.55076},
+    {"parkId": "epcot", "name": "La Cava del Tequila", "lat": 28.37145, "lon": -81.5472},
+    {"parkId": "epcot", "name": "Refreshment Port", "lat": 28.37153, "lon": -81.55049},
+    {"parkId": "epcot", "name": "Yorkshire County Fish Shop", "lat": 28.37035, "lon": -81.55165},
+    {"parkId": "epcot", "festivalId": "epcot-fw-2026", "name": "Canada", "lat": 28.37117, "lon": -81.55116},
+    {"parkId": "epcot", "festivalId": "epcot-fw-2026", "name": "Hawai'i", "lat": 28.37149, "lon": -81.55},
+    {"parkId": "epcot", "festivalId": "epcot-fw-2026", "name": "Australia", "lat": 28.36745, "lon": -81.54996},
+    {"parkId": "epcot", "festivalId": "epcot-fw-2026", "name": "Ireland", "lat": 28.36984, "lon": -81.55187},
+    {"parkId": "epcot", "festivalId": "epcot-fw-2026", "name": "Belgium", "lat": 28.36792, "lon": -81.552},
+    {"parkId": "epcot", "festivalId": "epcot-fw-2026", "name": "Brazil", "lat": 28.36792, "lon": -81.548},
+    {"parkId": "epcot", "festivalId": "epcot-fw-2026", "name": "Germany", "lat": 28.36847, "lon": -81.5472},
+    {"parkId": "epcot", "festivalId": "epcot-fw-2026", "name": "Greece", "lat": 28.36933, "lon": -81.54675},
+    {"parkId": "hs", "name": "Ronto Roasters", "lat": 28.3549, "lon": -81.5621},
+    {"parkId": "hs", "name": "Milk Stand", "lat": 28.3553, "lon": -81.5618},
+    {"parkId": "hs", "name": "Woody's Lunch Box", "lat": 28.3562, "lon": -81.5631},
+    {"parkId": "ak", "name": "Pongu Pongu", "lat": 28.3552, "lon": -81.5926},
+    {"parkId": "ak", "name": "Satu'li Canteen", "lat": 28.3547, "lon": -81.593},
+    {"parkId": "dl", "name": "Tiki Juice Bar", "lat": 33.8117, "lon": -117.9199},
+    {"parkId": "dl", "name": "Mint Julep Bar", "lat": 33.8113, "lon": -117.9213},
+    {"parkId": "dl", "name": "Little Red Wagon", "lat": 33.8112, "lon": -117.919},
+    {"parkId": "dl", "name": "Harbour Galley", "lat": 33.8126, "lon": -117.9227},
+    {"parkId": "dl", "name": "Café Orleans", "lat": 33.8114, "lon": -117.9211},
+    {"parkId": "dl", "name": "Frontierland Carts", "lat": 33.8122, "lon": -117.921},
+    {"parkId": "dl", "name": "Ronto Roasters", "lat": 33.8148, "lon": -117.9223},
+    {"parkId": "dl", "name": "Milk Stand", "lat": 33.8151, "lon": -117.9219},
+    {"parkId": "dca", "name": "Corn Dog Castle", "lat": 33.8051, "lon": -117.9218},
+    {"parkId": "dca", "name": "Cozy Cone Motel", "lat": 33.8058, "lon": -117.9194},
+    {"parkId": "dca", "name": "Pym Test Kitchen", "lat": 33.8075, "lon": -117.9176},
+    {"parkId": "dca", "name": "Lamplight Lounge", "lat": 33.8049, "lon": -117.9224},
+    {"parkId": "dca", "name": "Pacific Wharf Café", "lat": 33.8062, "lon": -117.9206},
+    {"parkId": "dca", "name": "Ghirardelli Soda Fountain", "lat": 33.8057, "lon": -117.9214}
   ],
 
   "items": [
@@ -136,6 +183,9 @@
     {"id": "st-brain-freeze", "name": "Brain Freeze", "emoji": "🍦", "detail": "Try 5 different frozen treats.", "color": "#5DADE2", "group": "Categories", "rule": {"kind": "count", "target": 5, "filter": {"category": "frozen"}}},
     {"id": "st-snack-attack", "name": "Snack Attack", "emoji": "🍟", "detail": "Try 10 different savory snacks.", "color": "#E67E22", "group": "Categories", "rule": {"kind": "count", "target": 10, "filter": {"category": "snack"}}},
     {"id": "st-sip-happens", "name": "Sip Happens", "emoji": "🥤", "detail": "Try 5 different drinks.", "color": "#48C9B0", "group": "Categories", "rule": {"kind": "count", "target": 5, "filter": {"category": "drink"}}},
-    {"id": "st-big-appetite", "name": "Big Appetite", "emoji": "🍽️", "detail": "Try 5 different meals.", "color": "#7F8C8D", "group": "Categories", "rule": {"kind": "count", "target": 5, "filter": {"category": "meal"}}}
+    {"id": "st-big-appetite", "name": "Big Appetite", "emoji": "🍽️", "detail": "Try 5 different meals.", "color": "#7F8C8D", "group": "Categories", "rule": {"kind": "count", "target": 5, "filter": {"category": "meal"}}},
+    {"id": "st-pro-festival-fanatic", "name": "Festival Fanatic", "emoji": "🎪", "detail": "Try 20 different festival items.", "color": "#C2185B", "group": "Pro Collection", "pro": true, "rule": {"kind": "count", "target": 20, "filter": {"festivalOnly": true}}},
+    {"id": "st-pro-sweet-supreme", "name": "Dessert Royalty", "emoji": "🍰", "detail": "Try 20 different sweet treats.", "color": "#AD1457", "group": "Pro Collection", "pro": true, "rule": {"kind": "count", "target": 20, "filter": {"category": "sweet"}}},
+    {"id": "st-pro-sip-world", "name": "Sip Around the World", "emoji": "🌍", "detail": "Try 8 different drinks.", "color": "#00897B", "group": "Pro Collection", "pro": true, "rule": {"kind": "count", "target": 8, "filter": {"category": "drink"}}}
   ]
 }
