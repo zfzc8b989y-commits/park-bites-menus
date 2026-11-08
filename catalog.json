@@ -1,5 +1,5 @@
 {
-  "version": 2026102302,
+  "version": 2026110701,
 
   "resorts": [
     {"id": "wdw", "name": "Walt Disney World Resort", "shortName": "Walt Disney World", "parks": [{"id": "mk", "name": "Magic Kingdom", "emoji": "🏰", "lat": 28.4185, "lon": -81.5812, "entranceLat": 28.4163, "entranceLon": -81.5812}, {"id": "epcot", "name": "EPCOT", "emoji": "🌐", "lat": 28.36972, "lon": -81.54951, "entranceLat": 28.37176, "entranceLon": -81.54942}, {"id": "hs", "name": "Hollywood Studios", "emoji": "🎬", "lat": 28.3572, "lon": -81.56, "entranceLat": 28.3577, "entranceLon": -81.5583}, {"id": "ak", "name": "Animal Kingdom", "emoji": "🌳", "lat": 28.3575, "lon": -81.5905, "entranceLat": 28.359, "entranceLon": -81.588}]},
@@ -405,11 +405,6 @@
     {"id": "fw26-joffrey-s-near-dis-dolce-affogato-cold-brew-spiked", "name": "Dolce Affogato Cold Brew (spiked)", "location": "Joffrey's (near Disney Traders)", "category": "drink", "parkId": "epcot", "festivalId": "epcot-fw-2026", "tags": ["alcohol", "cocktail"], "price": 15.99},
     {"id": "fw26-joffrey-s-world-di-affogato-di-marshmallow-cold-brew", "name": "Affogato di Marshmallow Cold Brew", "location": "Joffrey's (World Discovery)", "category": "drink", "parkId": "epcot", "festivalId": "epcot-fw-2026", "price": 7.49},
     {"id": "fw26-joffrey-s-world-di-affogato-di-marshmallow-cold-brew-spiked", "name": "Affogato di Marshmallow Cold Brew (spiked)", "location": "Joffrey's (World Discovery)", "category": "drink", "parkId": "epcot", "festivalId": "epcot-fw-2026", "tags": ["alcohol", "cocktail"], "price": 15.99},
-    {"id": "hol-latkes", "name": "Potato Latkes with Applesauce", "location": "Holiday Kitchen", "category": "snack", "parkId": "epcot", "festivalId": "epcot-holidays-2026"},
-    {"id": "hol-gingerbread", "name": "Gingerbread Cookie", "location": "Holiday Cookie Stroll", "category": "sweet", "parkId": "epcot", "festivalId": "epcot-holidays-2026"},
-    {"id": "hol-sugar-cookie", "name": "Frosted Sugar Cookie", "location": "Holiday Cookie Stroll", "category": "sweet", "parkId": "epcot", "festivalId": "epcot-holidays-2026"},
-    {"id": "hol-gluhwein", "name": "Glühwein", "location": "Holiday Kitchen", "category": "drink", "parkId": "epcot", "festivalId": "epcot-holidays-2026"},
-    {"id": "hol-cocoa", "name": "Peppermint Hot Cocoa", "location": "Holiday Kitchen", "category": "drink", "parkId": "epcot", "festivalId": "epcot-holidays-2026"},
     {"id": "arts-blt", "name": "Deconstructed BLT", "location": "Food Studio", "category": "snack", "parkId": "epcot", "festivalId": "epcot-arts-2026"},
     {"id": "arts-painted-tart", "name": "Hand-Painted Chocolate Tart", "location": "Food Studio", "category": "sweet", "parkId": "epcot", "festivalId": "epcot-arts-2026"},
     {"id": "arts-color-latte", "name": "Color-Swirl Latte", "location": "Food Studio", "category": "drink", "parkId": "epcot", "festivalId": "epcot-arts-2026"},
