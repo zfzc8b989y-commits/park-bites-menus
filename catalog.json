@@ -1,5 +1,5 @@
 {
-  "version": 2026110801,
+  "version": 2026110802,
 
   "resorts": [
     {"id": "wdw", "name": "Walt Disney World Resort", "shortName": "Walt Disney World", "parks": [{"id": "mk", "name": "Magic Kingdom", "emoji": "🏰", "lat": 28.4185, "lon": -81.5812, "entranceLat": 28.4163, "entranceLon": -81.5812}, {"id": "epcot", "name": "EPCOT", "emoji": "🌐", "lat": 28.36972, "lon": -81.54951, "entranceLat": 28.37176, "entranceLon": -81.54942}, {"id": "hs", "name": "Hollywood Studios", "emoji": "🎬", "lat": 28.3584, "lon": -81.55872, "entranceLat": 28.3577, "entranceLon": -81.5583}, {"id": "ak", "name": "Animal Kingdom", "emoji": "🌳", "lat": 28.3575, "lon": -81.5905, "entranceLat": 28.359, "entranceLon": -81.588}]},
@@ -12,7 +12,8 @@
     {"id": "epcot-fw-2026", "seriesId": "epcot-fw", "name": "EPCOT Food & Wine Festival", "shortName": "Food & Wine", "year": 2026, "parkId": "epcot", "emoji": "🍷", "color": "#7B1E3A", "blurb": "Global marketplaces with small plates and sips from around the world.", "startDate": "2026-08-27", "endDate": "2026-11-21"},
     {"id": "epcot-holidays-2026", "seriesId": "epcot-holidays", "name": "EPCOT Festival of the Holidays", "shortName": "Holidays", "year": 2026, "parkId": "epcot", "emoji": "🎄", "color": "#1E8449", "blurb": "Holiday kitchens serving seasonal treats and traditions.", "startDate": "2026-11-27", "endDate": "2026-12-30"},
     {"id": "dca-lny-2026", "seriesId": "dca-lny", "name": "Lunar New Year Celebration", "shortName": "Lunar New Year", "year": 2026, "parkId": "dca", "emoji": "🧧", "color": "#C0392B", "blurb": "Marketplaces celebrating the new year with Asian-inspired flavors.", "startDate": "2026-01-23", "endDate": "2026-02-22"},
-    {"id": "dca-fw-2026", "seriesId": "dca-fw", "name": "California Adventure Food & Wine", "shortName": "DCA Food & Wine", "year": 2026, "parkId": "dca", "emoji": "🍇", "color": "#6C3483", "blurb": "California-grown flavors at marketplaces around the park.", "startDate": "2026-03-06", "endDate": "2026-04-27"}
+    {"id": "dca-fw-2026", "seriesId": "dca-fw", "name": "California Adventure Food & Wine", "shortName": "DCA Food & Wine", "year": 2026, "parkId": "dca", "emoji": "🍇", "color": "#6C3483", "blurb": "California-grown flavors at marketplaces around the park.", "startDate": "2026-03-06", "endDate": "2026-04-27"},
+    {"id": "dca-holidays-2026", "seriesId": "dca-holidays", "name": "California Adventure Festival of Holidays", "shortName": "DCA Holidays", "year": 2026, "parkId": "dca", "emoji": "🎁", "color": "#B03A2E", "blurb": "Holiday marketplaces with comfort food, cocoa, and festive sips.", "startDate": "2026-11-13", "endDate": "2027-01-06"}
   ],
 
   "locations": [
@@ -206,7 +207,25 @@
     {"parkId": "dca", "festivalId": "dca-fw-2026", "name": "Boardwalk Pizza & Pasta", "lat": 33.80572, "lon": -117.92333},
     {"parkId": "dca", "festivalId": "dca-fw-2026", "name": "Paradise Beer Garden", "lat": 33.8059, "lon": -117.9233},
     {"parkId": "dca", "festivalId": "dca-fw-2026", "name": "Paradise Garden Grill", "lat": 33.80608, "lon": -117.92349},
-    {"parkId": "dca", "festivalId": "dca-fw-2026", "name": "Smokejumpers Grill", "lat": 33.80803, "lon": -117.9197}
+    {"parkId": "dca", "festivalId": "dca-fw-2026", "name": "Smokejumpers Grill", "lat": 33.80803, "lon": -117.9197},
+    {"parkId": "dca", "festivalId": "dca-holidays-2026", "name": "Holiday Duets", "lat": 33.80794, "lon": -117.91751},
+    {"parkId": "dca", "festivalId": "dca-holidays-2026", "name": "A Twist on Tradition", "lat": 33.80765, "lon": -117.91804},
+    {"parkId": "dca", "festivalId": "dca-holidays-2026", "name": "Brews & Bites", "lat": 33.80736, "lon": -117.91858},
+    {"parkId": "dca", "festivalId": "dca-holidays-2026", "name": "Grandma's Recipes", "lat": 33.80706, "lon": -117.91911},
+    {"parkId": "dca", "festivalId": "dca-holidays-2026", "name": "Favorite Things", "lat": 33.80677, "lon": -117.91965},
+    {"parkId": "dca", "festivalId": "dca-holidays-2026", "name": "Merry Mashups", "lat": 33.80648, "lon": -117.92018},
+    {"parkId": "dca", "festivalId": "dca-holidays-2026", "name": "Paradise Garden Grill", "lat": 33.80608, "lon": -117.92349},
+    {"parkId": "dca", "festivalId": "dca-holidays-2026", "name": "Clarabelle's Hand-Scooped Ice Cream", "lat": 33.80797, "lon": -117.91918},
+    {"parkId": "dca", "festivalId": "dca-holidays-2026", "name": "Studio Catering Co.", "lat": 33.80795, "lon": -117.91701},
+    {"parkId": "dca", "festivalId": "dca-holidays-2026", "name": "Terran Treats", "lat": 33.80712, "lon": -117.91702},
+    {"parkId": "dca", "festivalId": "dca-holidays-2026", "name": "Aunt Cass Café", "lat": 33.8059, "lon": -117.92009},
+    {"parkId": "dca", "festivalId": "dca-holidays-2026", "name": "Lucky Fortune Cookery", "lat": 33.80582, "lon": -117.91979},
+    {"parkId": "dca", "festivalId": "dca-holidays-2026", "name": "Rita's Turbine Blenders", "lat": 33.80573, "lon": -117.92},
+    {"parkId": "dca", "festivalId": "dca-holidays-2026", "name": "Cocina Cucamonga Mexican Grill", "lat": 33.80554, "lon": -117.92029},
+    {"parkId": "dca", "festivalId": "dca-holidays-2026", "name": "Cappuccino Cart", "lat": 33.80602, "lon": -117.9207},
+    {"parkId": "dca", "festivalId": "dca-holidays-2026", "name": "Flo's V8 Café", "lat": 33.8055, "lon": -117.91902},
+    {"parkId": "dca", "festivalId": "dca-holidays-2026", "name": "Boardwalk Pizza & Pasta", "lat": 33.80572, "lon": -117.92333},
+    {"parkId": "dca", "festivalId": "dca-holidays-2026", "name": "Smokejumpers Grill", "lat": 33.80803, "lon": -117.9197}
   ],
 
   "items": [
@@ -979,7 +998,50 @@
     {"id": "fw26-joffrey-s-near-dis-dolce-affogato-cold-brew", "name": "Dolce Affogato Cold Brew", "location": "Joffrey's (near Disney Traders)", "category": "drink", "parkId": "epcot", "festivalId": "epcot-fw-2026", "price": 7.49},
     {"id": "fw26-joffrey-s-near-dis-dolce-affogato-cold-brew-spiked", "name": "Dolce Affogato Cold Brew (spiked)", "location": "Joffrey's (near Disney Traders)", "category": "drink", "parkId": "epcot", "festivalId": "epcot-fw-2026", "tags": ["alcohol", "cocktail"], "price": 15.99},
     {"id": "fw26-joffrey-s-world-di-affogato-di-marshmallow-cold-brew", "name": "Affogato di Marshmallow Cold Brew", "location": "Joffrey's (World Discovery)", "category": "drink", "parkId": "epcot", "festivalId": "epcot-fw-2026", "price": 7.49},
-    {"id": "fw26-joffrey-s-world-di-affogato-di-marshmallow-cold-brew-spiked", "name": "Affogato di Marshmallow Cold Brew (spiked)", "location": "Joffrey's (World Discovery)", "category": "drink", "parkId": "epcot", "festivalId": "epcot-fw-2026", "tags": ["alcohol", "cocktail"], "price": 15.99}
+    {"id": "fw26-joffrey-s-world-di-affogato-di-marshmallow-cold-brew-spiked", "name": "Affogato di Marshmallow Cold Brew (spiked)", "location": "Joffrey's (World Discovery)", "category": "drink", "parkId": "epcot", "festivalId": "epcot-fw-2026", "tags": ["alcohol", "cocktail"], "price": 15.99},
+    {"id": "dho26-holiday-duets-holiday-brisket-kraft-deluxe-original-cheddar-mac-cheese", "name": "Holiday Brisket KRAFT Deluxe Original Cheddar Mac & Cheese", "location": "Holiday Duets", "category": "snack", "parkId": "dca", "festivalId": "dca-holidays-2026", "price": 9.5},
+    {"id": "dho26-holiday-duets-french-onion-kraft-deluxe-white-cheddar-mac-cheese", "name": "French Onion KRAFT Deluxe White Cheddar Mac & Cheese", "location": "Holiday Duets", "category": "snack", "parkId": "dca", "festivalId": "dca-holidays-2026", "price": 9.0},
+    {"id": "dho26-holiday-duets-duet-of-kraft-deluxe-mac-cheese", "name": "Duet of KRAFT Deluxe Mac & Cheese", "location": "Holiday Duets", "category": "snack", "parkId": "dca", "festivalId": "dca-holidays-2026", "price": 10.0},
+    {"id": "dho26-holiday-duets-merry-berry-holiday-punch", "name": "Merry Berry Holiday Punch", "location": "Holiday Duets", "category": "drink", "parkId": "dca", "festivalId": "dca-holidays-2026", "price": 9.25},
+    {"id": "dho26-holiday-duets-kern-river-brewing-company-just-outstanding-ipa", "name": "Kern River Brewing Company Just Outstanding IPA", "location": "Holiday Duets", "category": "drink", "parkId": "dca", "festivalId": "dca-holidays-2026", "tags": ["alcohol", "beer"], "price": 18.5},
+    {"id": "dho26-holiday-duets-seaborn-cran-merry-lime-margarita", "name": "Seaborn Cran-Merry Lime Margarita", "location": "Holiday Duets", "category": "drink", "parkId": "dca", "festivalId": "dca-holidays-2026", "tags": ["alcohol", "cocktail"], "price": 17.0},
+    {"id": "dho26-a-twist-on-tradition-chicken-pot-pie-wings", "name": "Chicken Pot Pie Wings", "location": "A Twist on Tradition", "category": "snack", "parkId": "dca", "festivalId": "dca-holidays-2026", "price": 9.75},
+    {"id": "dho26-a-twist-on-tradition-shrimp-grits", "name": "Shrimp & Grits", "location": "A Twist on Tradition", "category": "meal", "parkId": "dca", "festivalId": "dca-holidays-2026", "price": 9.5},
+    {"id": "dho26-a-twist-on-tradition-twix-bits-iced-chocolate", "name": "TWIX Bits Iced Chocolate", "location": "A Twist on Tradition", "category": "drink", "parkId": "dca", "festivalId": "dca-holidays-2026", "price": 9.5},
+    {"id": "dho26-a-twist-on-tradition-stella-artois-pilsner", "name": "Stella Artois Pilsner", "location": "A Twist on Tradition", "category": "drink", "parkId": "dca", "festivalId": "dca-holidays-2026", "tags": ["alcohol", "beer"], "price": 15.25},
+    {"id": "dho26-brews-bites-chorizo-queso-fundido", "name": "Chorizo Queso Fundido", "location": "Brews & Bites", "category": "snack", "parkId": "dca", "festivalId": "dca-holidays-2026", "price": 8.25},
+    {"id": "dho26-brews-bites-hot-cocoa-macaron", "name": "Hot Cocoa Macaron", "location": "Brews & Bites", "category": "sweet", "parkId": "dca", "festivalId": "dca-holidays-2026", "price": 9.5},
+    {"id": "dho26-brews-bites-cafe-de-olla-cold-brew", "name": "Café de Olla Cold Brew", "location": "Brews & Bites", "category": "drink", "parkId": "dca", "festivalId": "dca-holidays-2026", "price": 8.75},
+    {"id": "dho26-brews-bites-apple-cider-guava-margarita", "name": "Apple Cider Guava Margarita", "location": "Brews & Bites", "category": "drink", "parkId": "dca", "festivalId": "dca-holidays-2026", "tags": ["alcohol", "cocktail"], "price": 20.0},
+    {"id": "dho26-brews-bites-unsung-brewing-co-chocolate-snowball-blonde-ale", "name": "Unsung Brewing Co. Chocolate Snowball Blonde Ale", "location": "Brews & Bites", "category": "drink", "parkId": "dca", "festivalId": "dca-holidays-2026", "tags": ["alcohol", "beer"], "price": 17.0},
+    {"id": "dho26-grandma-s-recipes-turkey-tamale", "name": "Turkey Tamale", "location": "Grandma's Recipes", "category": "meal", "parkId": "dca", "festivalId": "dca-holidays-2026", "price": 9.75},
+    {"id": "dho26-grandma-s-recipes-sweet-potato-pecan-pie", "name": "Sweet Potato Pecan Pie", "location": "Grandma's Recipes", "category": "sweet", "parkId": "dca", "festivalId": "dca-holidays-2026", "price": 8.0},
+    {"id": "dho26-grandma-s-recipes-berry-pomegranate-paloma", "name": "Berry Pomegranate Paloma", "location": "Grandma's Recipes", "category": "drink", "parkId": "dca", "festivalId": "dca-holidays-2026", "tags": ["alcohol", "cocktail"], "price": 20.0},
+    {"id": "dho26-grandma-s-recipes-bottle-logic-brewing-3-on-the-tree-nectarine-blonde-ale", "name": "Bottle Logic Brewing 3 on the Tree Nectarine Blonde Ale", "location": "Grandma's Recipes", "category": "drink", "parkId": "dca", "festivalId": "dca-holidays-2026", "tags": ["alcohol", "beer"], "price": 17.0},
+    {"id": "dho26-favorite-things-braised-pork-belly-adobo", "name": "Braised Pork Belly Adobo", "location": "Favorite Things", "category": "meal", "parkId": "dca", "festivalId": "dca-holidays-2026", "price": 9.75},
+    {"id": "dho26-favorite-things-santa-milk-cookies-hot-cocoa", "name": "Santa Milk & Cookies Hot Cocoa", "location": "Favorite Things", "category": "drink", "parkId": "dca", "festivalId": "dca-holidays-2026", "price": 7.5},
+    {"id": "dho26-favorite-things-maple-hazelnut-hot-buttered-rum", "name": "Maple Hazelnut Hot Buttered Rum", "location": "Favorite Things", "category": "drink", "parkId": "dca", "festivalId": "dca-holidays-2026", "tags": ["alcohol", "cocktail"], "price": 18.5},
+    {"id": "dho26-favorite-things-left-coast-brewing-co-churro-ale", "name": "Left Coast Brewing Co. Churro Ale", "location": "Favorite Things", "category": "drink", "parkId": "dca", "festivalId": "dca-holidays-2026", "tags": ["alcohol", "beer"], "price": 18.5},
+    {"id": "dho26-merry-mashups-reimagined-beef-wellington", "name": "Reimagined Beef Wellington", "location": "Merry Mashups", "category": "meal", "parkId": "dca", "festivalId": "dca-holidays-2026", "price": 10.0},
+    {"id": "dho26-merry-mashups-cookie-butter-jelly-cheesecake-tart", "name": "Cookie Butter & Jelly Cheesecake Tart", "location": "Merry Mashups", "category": "sweet", "parkId": "dca", "festivalId": "dca-holidays-2026", "price": 8.75},
+    {"id": "dho26-merry-mashups-cran-blackberry-mule", "name": "Cran-Blackberry Mule", "location": "Merry Mashups", "category": "drink", "parkId": "dca", "festivalId": "dca-holidays-2026", "tags": ["alcohol", "cocktail"], "price": 19.5},
+    {"id": "dho26-merry-mashups-salted-caramel-brownie-white-russian", "name": "Salted Caramel Brownie White Russian", "location": "Merry Mashups", "category": "drink", "parkId": "dca", "festivalId": "dca-holidays-2026", "tags": ["alcohol", "cocktail"], "price": 20.0},
+    {"id": "dho26-paradise-garden-grill-red-velvet-cake-flan", "name": "Red Velvet Cake Flan", "location": "Paradise Garden Grill", "category": "sweet", "parkId": "dca", "festivalId": "dca-holidays-2026"},
+    {"id": "dho26-paradise-garden-grill-chilaquiles-carnitas-torta", "name": "Chilaquiles Carnitas Torta", "location": "Paradise Garden Grill", "category": "snack", "parkId": "dca", "festivalId": "dca-holidays-2026"},
+    {"id": "dho26-clarabelle-s-hand-scoo-holiday-mickey-ice-cream-bar", "name": "Holiday Mickey Ice Cream Bar", "location": "Clarabelle's Hand-Scooped Ice Cream", "category": "frozen", "parkId": "dca", "festivalId": "dca-holidays-2026"},
+    {"id": "dho26-studio-catering-co-southern-holiday-brisket-taco", "name": "Southern Holiday Brisket Taco", "location": "Studio Catering Co.", "category": "snack", "parkId": "dca", "festivalId": "dca-holidays-2026"},
+    {"id": "dho26-terran-treats-salted-caramel-chocolate-cake", "name": "Salted Caramel Chocolate Cake", "location": "Terran Treats", "category": "sweet", "parkId": "dca", "festivalId": "dca-holidays-2026"},
+    {"id": "dho26-aunt-cass-cafe-caramel-apple-bread-pudding", "name": "Caramel Apple Bread Pudding", "location": "Aunt Cass Café", "category": "sweet", "parkId": "dca", "festivalId": "dca-holidays-2026"},
+    {"id": "dho26-lucky-fortune-cookery-orange-chicken-rice-bowl", "name": "Orange Chicken Rice Bowl", "location": "Lucky Fortune Cookery", "category": "meal", "parkId": "dca", "festivalId": "dca-holidays-2026"},
+    {"id": "dho26-rita-s-turbine-blender-hot-blueberry-apple-cider", "name": "Hot Blueberry Apple Cider", "location": "Rita's Turbine Blenders", "category": "drink", "parkId": "dca", "festivalId": "dca-holidays-2026"},
+    {"id": "dho26-rita-s-turbine-blender-bourbon-berry-elixir", "name": "Bourbon Berry Elixir", "location": "Rita's Turbine Blenders", "category": "drink", "parkId": "dca", "festivalId": "dca-holidays-2026", "tags": ["alcohol", "cocktail"]},
+    {"id": "dho26-cocina-cucamonga-mexic-sunset-agua-fresca", "name": "Sunset Agua Fresca", "location": "Cocina Cucamonga Mexican Grill", "category": "drink", "parkId": "dca", "festivalId": "dca-holidays-2026"},
+    {"id": "dho26-cappuccino-cart-chocolate-horchata", "name": "Chocolate Horchata", "location": "Cappuccino Cart", "category": "drink", "parkId": "dca", "festivalId": "dca-holidays-2026"},
+    {"id": "dho26-flo-s-v8-cafe-holiday-pineapple-honey-glazed-chicken-strips", "name": "Holiday Pineapple-Honey Glazed Chicken Strips", "location": "Flo's V8 Café", "category": "snack", "parkId": "dca", "festivalId": "dca-holidays-2026"},
+    {"id": "dho26-boardwalk-pizza-pasta-cookie-butter-trifle", "name": "Cookie Butter Trifle", "location": "Boardwalk Pizza & Pasta", "category": "sweet", "parkId": "dca", "festivalId": "dca-holidays-2026"},
+    {"id": "dho26-smokejumpers-grill-loaded-pulled-pork-fries", "name": "Loaded Pulled Pork Fries", "location": "Smokejumpers Grill", "category": "snack", "parkId": "dca", "festivalId": "dca-holidays-2026"},
+    {"id": "dho26-outdoor-carts-mickey-shaped-gingerbread-cookie", "name": "Mickey-shaped Gingerbread Cookie", "location": "Outdoor Carts", "category": "sweet", "parkId": "dca", "festivalId": "dca-holidays-2026"},
+    {"id": "dho26-outdoor-carts-cherry-cotton-candy", "name": "Cherry Cotton Candy", "location": "Outdoor Carts", "category": "sweet", "parkId": "dca", "festivalId": "dca-holidays-2026"}
   ],
 
   "stickers": [
